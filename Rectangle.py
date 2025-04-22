@@ -2,7 +2,7 @@ LENGTH=15
 INDENT=38
 left_I = INDENT-1
 right_I = INDENT
-print(" "*INDENT, "*", sep='') #Top of triangle
+print(" "*INDENT, "*", sep='') #Triangle Top
 for i in range(LENGTH): #Length of triangle side
     print(" "*left_I, "*", " "*(right_I - left_I), "*", sep='')
     right_I+= 1
